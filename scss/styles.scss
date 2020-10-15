@@ -350,7 +350,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(../images/we.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -359,7 +359,7 @@ footer {
 #lead-content {
     position: absolute;
     z-index: 10;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -664,7 +664,6 @@ footer {
     transform: translateY(-50%);
     margin-left: 300px;
     padding: 15px;
-
     h3 {
         font-size: 1.5em;
         font-weight: 300;
@@ -676,6 +675,11 @@ footer {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
+        text-align: left;
+    }
+
+    li {
+        text-align: left;
     }
 }
 
